@@ -46,7 +46,12 @@ public class InputOutput_Variables {
         //     System.out.println("You Enter : " +num);
         // }
 
+        
+        // get input from command line 
 
+        // for(String arg : args){
+        //     System.out.println("Argument :"+arg);
+        // }
 
 
 
