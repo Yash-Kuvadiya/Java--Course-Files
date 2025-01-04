@@ -8,11 +8,12 @@ public class RockPaperScissors {
         Random random = new Random();
 
         System.out.println("Welcome to Rock-Paper-Scissors!");
-        System.out.println("Enter 0 for Rock, 1 for Paper, 2 for Scissors, 4 to Restart, 5 to Exit.");
+        
 
         boolean play = true;
         while (play) {
             // Get player's choice
+            System.out.println("Enter 0 for Rock, 1 for Paper, 2 for Scissors, 4 to Restart, 5 to Exit.");
             System.out.print("Your choice: ");
             int playerChoice = sc.nextInt();
 
