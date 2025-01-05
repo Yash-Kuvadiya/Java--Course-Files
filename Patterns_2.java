@@ -264,7 +264,7 @@ public class Patterns_2 {
 
 
         //pascal's triangle
-
+        /* 
         int n = 5; // Number of rows for Pascal's Triangle
 
         for (int i = 0; i < n; i++) {
@@ -281,6 +281,22 @@ public class Patterns_2 {
             }
 
             System.out.println(); // Move to the next row
+        }
+        */
+
+
+        // diagonal 
+        int n=5;
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= n; j++) {
+                // Check for main diagonal elements
+                if (i == j) {
+                    System.out.print("* ");
+                } else {
+                    System.out.print("  ");
+                }
+            }
+            System.out.println();
         }
 
     }
