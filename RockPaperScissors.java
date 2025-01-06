@@ -39,7 +39,7 @@ public class RockPaperScissors {
             // Get computer's random choice of 3 integer
             int computerChoice = random.nextInt(3);
 
-            // Display choices
+            // Print choices
             String[] choices = {"Rock", "Paper", "Scissors"};
             System.out.println("You chose: " + choices[playerChoice]);
             System.out.println("Computer chose: " + choices[computerChoice]);
