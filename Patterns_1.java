@@ -1,6 +1,6 @@
 public class Patterns_1 {
     public static void main(String[] args) {
-        
+        // This is Basic Pattern Programs
 
        /* 
        1)
