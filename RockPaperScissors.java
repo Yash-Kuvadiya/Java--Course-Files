@@ -15,7 +15,7 @@ public class RockPaperScissors {
         boolean play = true;
         while (play) {
             // Get player's choice
-            System.out.println("Enter 0 for Rock, 1 for Paper, 2 for Scissors, 4 to Restart, 5 to Exit.");
+            System.out.println("Enter 0 for Rock, 1 for Paper, 2 for Scissors, and 4 to Restart, 5 to Exit.");
             System.out.print("Your choice: ");
             int playerChoice = sc.nextInt();
 
