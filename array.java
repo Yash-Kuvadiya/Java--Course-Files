@@ -23,6 +23,9 @@ public class array {
         }
         */
 
+
+
+        /* 
         //Dynamic Array
         Scanner sc=new Scanner(System.in);
         System.out.print("Define Size of Array :");
@@ -41,7 +44,31 @@ public class array {
         for(int i=0;i<size;i++){
             System.out.println(myArray[i]);
         }
+        */
 
+
+
+
+        // Search A elemet in array and return index of the that element 
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter Size of Array :");
+        int size = sc.nextInt();
+
+        int myArray[] = new int[size];
+
+        System.out.println("Enter elements in the array :");
+        for(int i =0;i<size;i++){
+            myArray[i] = sc.nextInt();
+        }
+
+        System.out.println("Enter Search Element :");
+        int x = sc.nextInt();
+        for(int i=0;i<myArray.length;i++){
+            if (myArray[i]==x) {
+                System.out.println("Founded Index =" +i);
+            }
+        }
 
 
 
