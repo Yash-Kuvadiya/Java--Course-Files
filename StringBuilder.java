@@ -9,6 +9,7 @@ public class StringBuilder {
          */
 
          // STRING BUILDER no use niche mujab declare kari ne kari shakay 6e
+         // Jem String declare thaai am StringBuilder Class ne pn as per below declare karavvama aave 6e
         
          StringBuilder sb = new StringBuilder();
          System.out.println(sb);
