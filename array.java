@@ -5,6 +5,9 @@ public class array {
         
         // Java array called as the "zero-indexed array" because in java index of array is starting from 0.
 
+        // Declaration Syntax : type arrayName[] = new type[]; ---  int myarray[] = new int[]
+
+
         /* 
         // this is the static array
        // int myArray[] = {10,20,30};
