@@ -55,6 +55,21 @@ public class InputOutput_Variables {
 
 
 
+
+        /*
+         * #NOTE : Jevo j variable declare thaai aetle te variable define thayela name thi memory ma
+         *         space layi le 6e.
+         *         Jo aa variable ne value no aapi hoi to 
+         *                    as a int = 0
+         *                         float = 0.0
+         *                         boolean = false
+         *                         string = ""
+         *                         object = NULL value , layi le 6e.
+         */
+
+
+         
+
         // Interview Question Link(ChatGPT) : https://chatgpt.com/share/6774e194-12d8-8006-a63c-0448b45f0480
 
     }
