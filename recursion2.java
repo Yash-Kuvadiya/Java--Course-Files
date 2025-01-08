@@ -1,4 +1,4 @@
-public class TowerOfHanoi {
+public class recursion2 {
 
     public static void towerOfHonoi(int n, String src , String dest , String helper){
         if (n==1){
