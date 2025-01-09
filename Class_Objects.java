@@ -56,8 +56,8 @@ class myClass{
 
 public class Class_Objects {
     public static void main(String[] args) {
-        myClass obj = new myClass();
-        obj.write();
+        myClass obj = new myClass();  //object create 
+        obj.write(); // class called
         obj.print();
     } 
 }
