@@ -30,6 +30,7 @@ public class constructor {
         //Bike1 b1 = new Bike1(); // object created 
         // at the time of object create , constructor Bike() also called and print the message 
 
+        //This is for Parameterized Constructor
         Bike1 b1 = new Bike1(10, "YAMAHA");
         Bike1 b2 = new Bike1(20, "TVS");
 
