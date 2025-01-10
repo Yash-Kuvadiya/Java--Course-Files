@@ -21,7 +21,7 @@ class Bike1{
         System.out.println("id = "+id+" name = "+name);
     }
 
-    // Here Main Method also comes
+    // Here Method also comes
 }
 
 public class constructor { 
@@ -34,6 +34,7 @@ public class constructor {
         Bike1 b1 = new Bike1(10, "YAMAHA");
         Bike1 b2 = new Bike1(20, "TVS");
 
+        // Call Class
         b1.display();
         b2.display();
     }
