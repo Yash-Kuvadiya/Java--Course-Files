@@ -7,12 +7,32 @@ class Bike1{
     /*Bike1(){
         System.out.println("THis is Deafult Constructor");
     }*/
-    
+
+    int id;
+    String name;
+
+    //parameterized constructor
+    Bike1(int i, String n){
+        id=i;
+        name=n;
+    }
+    //method to display values 
+    void display(){
+        System.out.println("id = "+id+" name = "+name);
+    }
 
     // Here Main Method also comes
 }
 
 public class constructor { 
-    //Bike1 b1 = new Bike1(); // object created 
-    // at the time of object create , constructor Bike() also called and print the message 
+    public static void main(String[] args) {
+        //Bike1 b1 = new Bike1(); // object created 
+        // at the time of object create , constructor Bike() also called and print the message 
+
+        Bike1 b1 = new Bike1(10, "YAMAHA");
+        Bike1 b2 = new Bike1(20, "TVS");
+
+        b1.display();
+        b2.display();
+    }
 }
