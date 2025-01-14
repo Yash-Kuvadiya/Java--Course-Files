@@ -17,10 +17,13 @@ class SBI extends Bank{
 }  
 class ICICI extends Bank{  
     float getRateOfInterest(){
-        return 7.3f;}  
+        return 7.3f;
+    }  
 }  
 class AXIS extends Bank{  
-    float getRateOfInterest(){return 9.7f;}  
+    float getRateOfInterest(){
+        return 9.7f;
+    }  
 } 
 
 public class polymorphism {
