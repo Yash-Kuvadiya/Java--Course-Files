@@ -1,3 +1,5 @@
+//runtime polymorphism :- Runtime polymorphism or Dynamic Method Dispatch is a process in which a call to an overridden method is resolved at runtime rather than compile-time.
+
 class Bank{  
     float getRateOfInterest(){
         return 0;
