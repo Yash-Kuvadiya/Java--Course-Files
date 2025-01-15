@@ -23,7 +23,7 @@ class AXIS extends Bank{
 
 public class methodOverriding {
     public static void main(String[] args) {
-        Bank b;  
+        Bank b;  // object of bank class 
         b=new SBI();  
         System.out.println("SBI Rate of Interest: "+b.getRateOfInterest());  
         b=new ICICI();  
